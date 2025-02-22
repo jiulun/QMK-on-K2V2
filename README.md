@@ -75,7 +75,9 @@ Depending on your [keyboard layout](https://upload.wikimedia.org/wikipedia/commo
  2.10. Locate and copy the .bin file
 
 Depending on your layout, copy “keychron_k2_rgb_v2_ansi_default.bin” to a folder for easily locating it later
+ 
  2.11 Make ansi:via firmware
+    
     make keychron/k2/v2/rgb/ansi:via
 
 ## 3. Checking Your MCU and Entering Boot Mode
