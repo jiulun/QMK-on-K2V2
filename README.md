@@ -68,13 +68,15 @@ You can hit the windows key and type “QMK MSYS” to find the program
 
 Depending on your [keyboard layout](https://upload.wikimedia.org/wikipedia/commons/1/14/Physical_keyboard_layouts_comparison_ANSI_ISO.png):
 
-    make keychron/k2/rgb/via:default
+    make keychron/k2/v2/rgb/ansi:default
 
  2.9. Navigate to the qmk directory
 
  2.10. Locate and copy the .bin file
 
-Depending on your layout, copy “keychron_k2_rgb_via_default.bin” to a folder for easily locating it later
+Depending on your layout, copy “keychron_k2_rgb_v2_ansi_default.bin” to a folder for easily locating it later
+ 2.11 Make ansi:via firmware
+    make keychron/k2/v2/rgb/ansi:via
 
 ## 3. Checking Your MCU and Entering Boot Mode
  3.1. Remove the space bar key to view the version and boot pins
